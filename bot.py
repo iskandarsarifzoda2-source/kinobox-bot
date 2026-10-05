@@ -4,7 +4,7 @@ from flask import Flask
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = os.environ.get("BOT_TOKEN", "8708614062:AAEZMLewIKsndI2JaB531OCXFi1Zo8sGLSM")
+TOKEN = os.environ.get("BOT_TOKEN", "8708614062:AAHnYtm9t6yRfMcNby2om2DEmfJwvJdgZnM")
 CHANNEL = "@kinobox1111"
 CHANNEL_INVITE = "https://t.me/+Sjv2o3ws9yM1NjEy"
 
